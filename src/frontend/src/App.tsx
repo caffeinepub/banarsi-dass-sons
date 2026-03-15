@@ -448,30 +448,13 @@ export default function App() {
               </div>
             </div>
 
-            {/* Decorative right column */}
-            <div className="hidden lg:flex items-center justify-center">
-              <div className="relative w-full max-w-sm">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gold" />
-                <div className="ml-8 border border-steel-700 p-8">
-                  <div className="font-heading text-5xl font-bold text-steel-700 leading-none mb-4">
-                    EST.
-                  </div>
-                  <div className="font-heading text-7xl font-bold text-gold leading-none">
-                    B.D.S
-                  </div>
-                  <div className="mt-6 font-body text-xs text-steel-400 uppercase tracking-[0.3em]">
-                    Banarsi Dass &amp; Sons
-                  </div>
-                  <div className="mt-2 font-body text-xs text-steel-400 uppercase tracking-[0.3em]">
-                    Hamirpur · H.P.
-                  </div>
-                  <div className="mt-8 h-px bg-steel-700" />
-                  <div className="mt-6 font-body text-xs text-steel-400 leading-relaxed">
-                    A name synonymous with quality, trust and reliability in
-                    Himachal Pradesh's construction industry.
-                  </div>
-                </div>
-              </div>
+            {/* Shop photo */}
+            <div className="hidden lg:block">
+              <img
+                src="/assets/uploads/Screenshot-2026-03-15-at-10.22.31-AM-3-1.png"
+                alt="Banarsi Dass & Sons Shop"
+                className="w-full h-full object-cover max-h-[500px]"
+              />
             </div>
           </div>
         </div>
